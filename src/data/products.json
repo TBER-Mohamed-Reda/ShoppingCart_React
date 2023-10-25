@@ -1,0 +1,73 @@
+[
+    {
+      "id": 1,
+      "title": "Smartphone",
+      "price": 599.99,
+      "picture":"../../public/images/smartphone.jpg",
+      "description": "A high-quality smartphone with advanced features."
+    },
+    {
+      "id": 2,
+      "title": "Laptop",
+      "price": 999.99,
+      "picture": "../../public/images/laptop.jpg",
+      "description": "Powerful laptop for work and entertainment."
+    },
+    {
+      "id": 3,
+      "title": "Headphones",
+      "price": 79.99,
+      "picture": "../../public/images/headphones.jpg",
+      "description": "High-fidelity headphones for an immersive audio experience."
+    },
+    {
+      "id": 4,
+      "title": "Coffee Maker",
+      "price": 49.99,
+      "picture": "../../public/images/coffeemaker.jpg",
+      "description": "An easy-to-use coffee maker for your morning brew."
+    },
+    {
+      "id": 5,
+      "title": "Running Shoes",
+      "price": 89.99,
+      "picture": "../../public/images/runningshoes.webp",
+      "description": "Comfortable running shoes for your active lifestyle."
+    },
+    {
+      "id": 6,
+      "title": "Gaming Console",
+      "price": 399.99,
+      "picture": "../../public/images/gameconsole.webp",
+      "description": "A gaming console for endless entertainment."
+    },
+    {
+      "id": 7,
+      "title": "Smart Watch",
+      "price": 149.99,
+      "picture": "../../public/images/smartwatch.webp",
+      "description": "Stay connected and track your fitness with a smartwatch."
+    },
+    {
+      "id": 8,
+      "title": "Digital Camera",
+      "price": 499.99,
+      "picture": "../../public/images/camera.jpg",
+      "description": "Capture your memories with a high-quality digital camera."
+    },
+    {
+      "id": 9,
+      "title": "Bluetooth Speaker",
+      "price": 59.99,
+      "picture": "../../public/images/bluethoth.jpg",
+      "description": "Portable Bluetooth speaker for on-the-go music."
+    },
+    {
+      "id": 10,
+      "title": "Microwave Oven",
+      "price": 129.99,
+      "picture": "../../public/images/microwave.jpg",
+      "description": "Efficient microwave oven for quick meal preparation."
+    }
+]
+
