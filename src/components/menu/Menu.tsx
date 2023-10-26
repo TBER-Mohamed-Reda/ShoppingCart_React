@@ -1,4 +1,4 @@
-import { Container, Nav, Navbar } from "react-bootstrap";
+import { Badge, Container, Nav, Navbar } from "react-bootstrap";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import {
   faCartShopping,
@@ -7,7 +7,8 @@ import {
 } from "@fortawesome/free-solid-svg-icons";
 import { NavLink } from "react-router-dom";
 import { useContext } from "react";
-import { ShoppingCartContext } from "../context/ShoppingCartContext";
+import { ShoppingCartContext } from "../../context/ShoppingCartContext";
+import "./menu.css";
 
 const Menu = () => {
   const { openCart, cartQuantity } = useContext(ShoppingCartContext);
@@ -43,7 +44,9 @@ const Menu = () => {
               size="lg"
               style={{ color: "#000000" }}
             />
-            <span className="sp">{cartQuantity}</span>
+            <Badge bg="warning" pill className="badge-inside-icon">
+              {cartQuantity}
+            </Badge>
           </>
         )}
       </Container>

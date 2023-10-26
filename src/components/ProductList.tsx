@@ -1,6 +1,6 @@
 import { Col, Container, Row } from "react-bootstrap";
 import productsData from "../data/products.json";
-import ProductItem from "./ProductItem";
+import ProductItem from "./product-item/ProductItem";
 const ProductList = () => {
   return (
     <Container className="mt-3">

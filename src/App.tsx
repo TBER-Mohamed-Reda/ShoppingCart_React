@@ -1,17 +1,14 @@
-import { Route, Routes } from "react-router-dom";
-import Menu from "./components/Menu";
-import ProductList from "./components/ProductList";
-import About from "./components/About";
+import Menu from "./components/menu/Menu";
 import { ShoppingCartProvider } from "./context/ShoppingCartContext";
+import Footer from "./components/footer/Footer";
+import AppRoutes from "./routes/AppRoutes";
 
 function App() {
   return (
     <ShoppingCartProvider>
       <Menu />
-      <Routes>
-        <Route path="/" element={<ProductList />} />
-        <Route path="/about" element={<About />} />
-      </Routes>
+      <AppRoutes />
+      <Footer />
     </ShoppingCartProvider>
   );
 }

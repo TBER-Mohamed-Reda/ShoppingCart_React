@@ -1,9 +1,10 @@
 import { Card, Col, Row } from "react-bootstrap";
-import { dollarCurrency } from "../utils/FormatCurrency";
+import { dollarCurrency } from "../../utils/FormatCurrency";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faMinus, faPlus, faTrash } from "@fortawesome/free-solid-svg-icons";
-import { ShoppingCartContext } from "../context/ShoppingCartContext";
+import { ShoppingCartContext } from "../../context/ShoppingCartContext";
 import { useContext } from "react";
+import "./productItem.css";
 
 type ProductItemProps = {
   id: number;
@@ -40,7 +41,7 @@ const ProductItem = ({
             <span className="sp">Add to cart</span>
           </button>
         ) : (
-          <div className="float-right">
+          <>
             <Row>
               <Col>
                 <button
@@ -72,10 +73,10 @@ const ProductItem = ({
                 </button>
               </Col>
             </Row>
-            <Row>
+            <Row className="row">
               <span className="sp">{quantity} in cart</span>
             </Row>
-          </div>
+          </>
         )}
       </Card.Footer>
     </Card>
